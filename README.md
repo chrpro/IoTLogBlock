@@ -1,9 +1,11 @@
 # IoTLogBlock 
-Source code of the IoTLogBlock Achitecture that will be published in 44th IEEE - LCN 2019 conference.
+Source code of the IoTLogBlock Achitecture (to be published) in <b>44th IEEE - LCN 2019</b> conference.
 # Recording Off-line Transactions of Low-Power IoT Devices Using a Blockchain
 <b>Chistos Profentzas</b>, Olaf Landsiedel, and Magnus Almgren. 2019. 
 _In Proceedings of the International Conference on Local Computer Networks (LCN)_.
-[paper](https://research.chalmers.se/en/publication/511927), [talk](./.pdf).
+[paper](https://research.chalmers.se/en/publication/511927), [talk](./ContikiNG/LCN.pdf).
+
+![IoTLogBlock](./ContikiNG/IoTLoGBlock.png)
 
 ## Abstract
 
@@ -16,7 +18,9 @@ In this paper, we present IoTLogBlock to address these challenges, which connect
 
 We implement the contract signing protocol, in <b>C</b> for the <b>Contiki-NG OS</b>.
 
-We implement the smart contrac in <b>GO</b> for <b>Hyperledger-Fabric</b>.  
+We implement the smart contract in <b>GO</b> for <b>Hyperledger-Fabric</b>.
+
+We implement the API to interact with the smart contract in <b>Node.JS</b>.
 
 We support Texas Instruments CC2538 SoC.
 
@@ -31,7 +35,7 @@ The Responder of the protocol logic: [ContikiNG/IoTLogBlock/chain-responder.c](.
 
 
 ### Node.JS and Python Scripts
-For Sending transcation to the Hyperledger Network:
+For Sending transaction to the Hyperledger Network:
 
 ### Configuring, Compiling, Flashing and Running on HW
 
